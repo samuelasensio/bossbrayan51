@@ -96,11 +96,13 @@ footer {
 
 h1 {
     text-align: center;
+    color:black;
 }
 
 label {
     display: block;
     margin: 10px 0 5px;
+    color:black;
 }
 
 input, textarea {
