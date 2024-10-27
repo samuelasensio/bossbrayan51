@@ -3,83 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bossbrayan51 - Web de links</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        h1 {
-            color: #333;
-        }
-        .link-container {
-            display: flex;
-            flex-direction: column; /* Cambiado a columna */
-            align-items: center; /* Centrado de los elementos */
-            margin-top: 20px;
-        }
-        .link-card {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            text-align: center;
-            width: 300px; /* Ajustado para ser más ancho */
-            margin: 10px 0; /* Espaciado entre tarjetas */
-            transition: transform 0.2s;
-        }
-        .link-card:hover {
-            transform: scale(1.05);
-        }
-        .link-card a {
-            text-decoration: none;
-            color: #3498db;
-            font-weight: bold;
-        }
-        .link-card a:hover {
-            color: #2980b9;
-        }
-    </style>
+    <title>Página de Enlaces - bossbrayan51</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>¡Bienvenido a mi pagina de enlaces!! 🎮✨</h1>
+    </header>
 
-    
-    <h1>¡Bienvenido a la pagina de links de Brayan!</h1>
-    <div class="link-container">
-        <div class="link-card">
-            <a href="https://www.google.com" target="_blank">Google</a>
-        </div>
-        <div class="link-card">
-            <a href="https://www.github.com" target="_blank">GitHub</a>
-        </div>
-        <div class="link-card">
-            <a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a>
-        </div>
-        <div class="link-card">
-            <a href="https://www.reddit.com" target="_blank">Reddit</a>
-        </div>
-        <div class="link-card">
-            <a href="https://www.youtube.com" target="_blank">YouTube</a>
-        </div>
-        <div class="link-card">
-            <a href="https://www.twitter.com" target="_blank">Twitter</a>
-        </div>
-    </div>
+    <main>
+        <section class="enlaces">
+            <a href="#" class="enlace">Twitch</a>
+            <a href="#" class="enlace">YouTube</a>
+            <a href="#" class="enlace">Instagram</a>
+            <a href="#" class="enlace">Twitter</a>
+            <a href="#" class="enlace">Discord</a>
+            <a href="#" class="enlace">TikTok</a>
+            <a href="#" class="enlace donacion">Donaciones</a>
+        </section>
 
-    <script>
-        const cards = document.querySelectorAll('.link-card');
+        <section class="horario">
+            <h2>Horario de Streaming</h2>
+            <p>Lunes, Miércoles, Viernes: 17:00 - 20:00 (UTC)</p>
+        </section>
 
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                alert('¡Has hecho clic en un enlace! Abriendo en nueva pestaña.');
-            });
-        });
-    </script>
+        <section class="acerca">
+            <h2>Acerca de Mí</h2>
+            <p>¡Hola! Soy [Nombre de la Streamer], una apasionada de los videojuegos y la comunidad. ¡Sígueme y sé parte de la aventura!</p>
+        </section>
+    </main>
 
+    <footer>
+        <p>Contacto: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+    </footer>
 </body>
 </html>
