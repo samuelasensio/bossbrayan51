@@ -54,3 +54,35 @@ footer {
     margin-top: 20px;
     padding: 10px;
 }
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, opacity 0.3s;
+    width: 200px; /* Ajusta el tamaño de las tarjetas según sea necesario */
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tarjeta p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
