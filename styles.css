@@ -57,7 +57,7 @@ footer {
     color:white;
     text-decoration:none;
      align-items: center;
-    justify-content: center; /*
+    justify-content: center; 
 }
 .tarjetas {
     display: flex;
@@ -133,6 +133,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 button:hover {
     background-color: #218838;
