@@ -115,11 +115,10 @@ label {
     display: block;
     margin: 10px 0 5px;
     color:black;
-    padding-left:10px;
 }
 
 input, textarea {
-    width: 100%;
+    width: 96%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
