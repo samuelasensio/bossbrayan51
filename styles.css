@@ -143,10 +143,11 @@ button:hover {
     background-color: #218838;
 }
 .loader {
-    position: absolute;
+    position: fixed; /* Cambia a 'fixed' para que se mantenga en el centro de la ventana */
+    top: 50%; /* Mueve el loader al 50% de la altura de la ventana */
+    left: 50%; /* Mueve el loader al 50% de la anchura de la ventana */
+    transform: translate(-50%, -50%); /* Ajusta el centro del loader */
     text-align: center;
-    justify-content: center; /* Si también quieres centrar horizontalmente */
-    align-items:center;
 }
 
 .loader img {
