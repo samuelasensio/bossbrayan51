@@ -57,7 +57,7 @@ footer {
 .tarjetas {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: auto 0;
     flex-wrap: wrap;
 }
 
