@@ -142,4 +142,21 @@ button {
 button:hover {
     background-color: #218838;
 }
+.loader {
+    position: absolute;
+    text-align: center;
+}
 
+.loader img {
+    width: 100px; /* Ajusta el tamaño de tu logo */
+    animation: spin 2s linear infinite; /* Efecto de giro */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.contenido {
+    display: none; /* Ocultamos el contenido por ahora */
+}
