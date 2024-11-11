@@ -59,13 +59,7 @@ footer {
      align-items: center;
     justify-content: center; 
 }
-.tarjetas {
-    justify-content: center;
-    margin: 20 0;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-}
+
 
 .tarjeta {
     background: rgba(255, 255, 255, 0.1);
