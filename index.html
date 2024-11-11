@@ -14,6 +14,14 @@
         <img src="logosf.png" alt="Cargando...">
     </div>
     <div class="contenido">
+        <div class="popup" id="twitchPopup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>¡Visita nuestro Twitch!</h2>
+        <p>¡No te pierdas nuestras transmisiones en vivo!</p>
+        <a href="https://www.twitch.tv/tu_canal" target="_blank" class="button">Ir a Twitch</a>
+    </div>
+</div>
     <header>
         <h1>¡Bienvenido a mi pagina de enlaces!! 🎮✨</h1>
     </header>
@@ -86,5 +94,16 @@
             document.querySelector('.contenido').style.display = 'block'; // Muestra el contenido
         }, 5000); // Cambia 3000 a los milisegundos que desees
     };
+</script>
+        <script>
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('twitchPopup').style.display = 'flex'; // Muestra el pop-up
+        }, 1000); // Muestra el pop-up después de 1 segundo
+    };
+
+    function closePopup() {
+        document.getElementById('twitchPopup').style.display = 'none'; // Oculta el pop-up
+    }
 </script>
 </html>
