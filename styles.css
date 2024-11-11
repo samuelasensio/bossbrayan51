@@ -57,7 +57,7 @@ footer {
 .tarjetas {
     display: flex;
     justify-content: center;
-    margin: auto 0;
+    margin: 20 0;
     flex-wrap: wrap;
 }
 
@@ -67,7 +67,7 @@ footer {
     margin: 10px;
     overflow: hidden;
     transition: transform 0.3s, opacity 0.3s;
-    width: 200px; /* Ajusta el tamaño de las tarjetas según sea necesario */
+    width: auto; /* Ajusta el tamaño de las tarjetas según sea necesario */
 }
 
 .tarjeta img {
