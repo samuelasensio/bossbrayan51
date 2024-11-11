@@ -57,10 +57,9 @@ footer {
     color:white;
     text-decoration:none;
      align-items: center;
-    justify-content: center; /*
+    justify-content: center; 
 }
 .tarjetas {
-    display: flex;
     justify-content: center;
     margin: 20 0;
     flex-wrap: wrap;
@@ -76,7 +75,6 @@ footer {
     transition: transform 0.3s, opacity 0.3s;
     width: 200px; /* Ajusta el tamaño de las tarjetas según sea necesario */
     display: flex;
-    align-items: center;
     justify-content: center; /* Si también quieres centrar horizontalmente */
 }
 
