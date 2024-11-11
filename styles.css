@@ -124,6 +124,8 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     color:black;
+    align-items: center;
+    justify-content: center; 
 }
 
 button {
