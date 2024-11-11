@@ -70,6 +70,7 @@ footer {
     width: 200px; /* Ajusta el tamaño de las tarjetas según sea necesario */
     display: flex;
     justify-content: center; /* Si también quieres centrar horizontalmente */
+    align-items:center;
 }
 
 .tarjeta img {
