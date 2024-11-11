@@ -67,7 +67,7 @@ footer {
     margin: 10px;
     overflow: hidden;
     transition: transform 0.3s, opacity 0.3s;
-    width: auto; /* Ajusta el tamaño de las tarjetas según sea necesario */
+    width: 200px; /* Ajusta el tamaño de las tarjetas según sea necesario */
 }
 
 .tarjeta img {
