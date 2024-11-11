@@ -53,6 +53,11 @@ h1 {
 footer {
     margin-top: 20px;
     padding: 10px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+     align-items: center;
+    justify-content: center; /*
 }
 .tarjetas {
     display: flex;
