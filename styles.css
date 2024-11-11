@@ -145,6 +145,8 @@ button:hover {
 .loader {
     position: absolute;
     text-align: center;
+    justify-content: center; /* Si también quieres centrar horizontalmente */
+    align-items:center;
 }
 
 .loader img {
