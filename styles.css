@@ -89,6 +89,13 @@ footer {
     transform: scale(1.05);
     opacity: 0.8;
 }
+.tarjetas {
+    justify-content: center;
+    margin: 20 0;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
 .form-container {
     background: white;
     padding: 20px;
